@@ -1,0 +1,270 @@
+
+line_no: '1', len(line): '48', content: '# C program to implement recursive Binary Search'
+Lexeme: '# C program to implement recursive Binary Search'	 is a Comment	 Token: 37
+
+line_no: '2', len(line): '1', content: ' '
+
+line_no: '3', len(line): '49', content: '# A recursive binary search function. It returns '
+Lexeme: '# A recursive binary search function. It returns '	 is a Comment	 Token: 37
+
+line_no: '4', len(line): '53', content: '# location of x in given array arr[l..r] is present, '
+Lexeme: '# location of x in given array arr[l..r] is present, '	 is a Comment	 Token: 37
+
+line_no: '5', len(line): '15', content: '# otherwise -1 '
+Lexeme: '# otherwise -1 '	 is a Comment	 Token: 37
+
+line_no: '6', len(line): '49', content: 'int binarySearch(int arr[], int l, int r, int x) '
+Lexeme: 'int'	 is a keyword	 Token: 39
+Lexeme: 'binarySearch'	 is an Identifi	 Token: 38
+Lexeme: '('	 is a Delimiter	 Token: 30
+Lexeme: 'int'	 is a keyword	 Token: 39
+Lexeme: 'arr'	 is an Identifi	 Token: 38
+Lexeme: '['	 is a Delimiter	 Token: 32
+Lexeme: ']'	 is a Delimiter	 Token: 33
+Lexeme: ','	 is a Delimiter	 Token: 36
+Lexeme: 'int'	 is a keyword	 Token: 39
+Lexeme: 'l'	 is an Identifi	 Token: 38
+Lexeme: ','	 is a Delimiter	 Token: 36
+Lexeme: 'int'	 is a keyword	 Token: 39
+Lexeme: 'r'	 is an Identifi	 Token: 38
+Lexeme: ','	 is a Delimiter	 Token: 36
+Lexeme: 'int'	 is a keyword	 Token: 39
+Lexeme: 'x'	 is an Identifi	 Token: 38
+Lexeme: ')'	 is a Delimiter	 Token: 31
+
+line_no: '7', len(line): '2', content: '{ '
+Lexeme: '{'	 is a Delimiter	 Token: 28
+
+line_no: '8', len(line): '31', content: '    if (r > l or r equals l) { '
+Lexeme: 'if'	 is a keyword	 Token: 5
+Lexeme: '('	 is a Delimiter	 Token: 30
+Lexeme: 'r'	 is an Identifi	 Token: 38
+Lexeme: '>'	 is an operator	 Token: 21
+Lexeme: 'l'	 is an Identifi	 Token: 38
+Lexeme: 'or'	 is an operator	 Token: 24
+Lexeme: 'r'	 is an Identifi	 Token: 38
+Lexeme: 'equals'	 is an operator	 Token: 20
+Lexeme: 'l'	 is an Identifi	 Token: 38
+Lexeme: ')'	 is a Delimiter	 Token: 31
+Lexeme: '{'	 is a Delimiter	 Token: 28
+
+line_no: '9', len(line): '35', content: '        int mid = l + (r - l) / 2; '
+Lexeme: 'int'	 is a keyword	 Token: 39
+Lexeme: 'mid'	 is an Identifi	 Token: 38
+Lexeme: '='	 is an operator	 Token: 19
+Lexeme: 'l'	 is an Identifi	 Token: 38
+Lexeme: '+'	 is an operator	 Token: 14
+Lexeme: '('	 is a Delimiter	 Token: 30
+Lexeme: 'r'	 is an Identifi	 Token: 38
+Lexeme: '-'	 is an operator	 Token: 15
+Lexeme: 'l'	 is an Identifi	 Token: 38
+Lexeme: ')'	 is a Delimiter	 Token: 31
+Lexeme: '/'	 is an operator	 Token: 17
+Lexeme: '2'	 is an int	 Token: 39
+Lexeme: ';'	 is a Delimiter	 Token: 34
+
+line_no: '10', len(line): '1', content: ' '
+
+line_no: '11', len(line): '50', content: '        # If the element is present at the middle '
+Lexeme: '# If the element is present at the middle '	 is a Comment	 Token: 37
+
+line_no: '12', len(line): '17', content: '        # itself '
+Lexeme: '# itself '	 is a Comment	 Token: 37
+
+line_no: '13', len(line): '31', content: '        if (arr[mid] equals x) '
+Lexeme: 'if'	 is a keyword	 Token: 5
+Lexeme: '('	 is a Delimiter	 Token: 30
+Lexeme: 'arr'	 is an Identifi	 Token: 38
+Lexeme: '['	 is a Delimiter	 Token: 32
+Lexeme: 'mid'	 is an Identifi	 Token: 38
+Lexeme: ']'	 is a Delimiter	 Token: 33
+Lexeme: 'equals'	 is an operator	 Token: 20
+Lexeme: 'x'	 is an Identifi	 Token: 38
+Lexeme: ')'	 is a Delimiter	 Token: 31
+
+line_no: '14', len(line): '24', content: '            return mid; '
+Lexeme: 'return'	 is a keyword	 Token: 13
+Lexeme: 'mid'	 is an Identifi	 Token: 38
+Lexeme: ';'	 is a Delimiter	 Token: 34
+
+line_no: '15', len(line): '1', content: ' '
+
+line_no: '16', len(line): '47', content: '        # If element is smaller than mid, then '
+Lexeme: '# If element is smaller than mid, then '	 is a Comment	 Token: 37
+
+line_no: '17', len(line): '50', content: '        # it can only be present in left subarray '
+Lexeme: '# it can only be present in left subarray '	 is a Comment	 Token: 37
+
+line_no: '18', len(line): '26', content: '        if (arr[mid] > x) '
+Lexeme: 'if'	 is a keyword	 Token: 5
+Lexeme: '('	 is a Delimiter	 Token: 30
+Lexeme: 'arr'	 is an Identifi	 Token: 38
+Lexeme: '['	 is a Delimiter	 Token: 32
+Lexeme: 'mid'	 is an Identifi	 Token: 38
+Lexeme: ']'	 is a Delimiter	 Token: 33
+Lexeme: '>'	 is an operator	 Token: 21
+Lexeme: 'x'	 is an Identifi	 Token: 38
+Lexeme: ')'	 is a Delimiter	 Token: 31
+
+line_no: '19', len(line): '53', content: '            return binarySearch(arr, l, mid - 1, x); '
+Lexeme: 'return'	 is a keyword	 Token: 13
+Lexeme: 'binarySearch'	 is an Identifi	 Token: 38
+Lexeme: '('	 is a Delimiter	 Token: 30
+Lexeme: 'arr'	 is an Identifi	 Token: 38
+Lexeme: ','	 is a Delimiter	 Token: 36
+Lexeme: 'l'	 is an Identifi	 Token: 38
+Lexeme: ','	 is a Delimiter	 Token: 36
+Lexeme: 'mid'	 is an Identifi	 Token: 38
+Lexeme: '-'	 is an operator	 Token: 15
+Lexeme: '1'	 is an int	 Token: 39
+Lexeme: ','	 is a Delimiter	 Token: 36
+Lexeme: 'x'	 is an Identifi	 Token: 38
+Lexeme: ')'	 is a Delimiter	 Token: 31
+Lexeme: ';'	 is a Delimiter	 Token: 34
+
+line_no: '20', len(line): '1', content: ' '
+
+line_no: '21', len(line): '47', content: '        # Else the element can only be present '
+Lexeme: '# Else the element can only be present '	 is a Comment	 Token: 37
+
+line_no: '22', len(line): '28', content: '        # in right subarray '
+Lexeme: '# in right subarray '	 is a Comment	 Token: 37
+
+line_no: '23', len(line): '49', content: '        return binarySearch(arr, mid + 1, r, x); '
+Lexeme: 'return'	 is a keyword	 Token: 13
+Lexeme: 'binarySearch'	 is an Identifi	 Token: 38
+Lexeme: '('	 is a Delimiter	 Token: 30
+Lexeme: 'arr'	 is an Identifi	 Token: 38
+Lexeme: ','	 is a Delimiter	 Token: 36
+Lexeme: 'mid'	 is an Identifi	 Token: 38
+Lexeme: '+'	 is an operator	 Token: 14
+Lexeme: '1'	 is an int	 Token: 39
+Lexeme: ','	 is a Delimiter	 Token: 36
+Lexeme: 'r'	 is an Identifi	 Token: 38
+Lexeme: ','	 is a Delimiter	 Token: 36
+Lexeme: 'x'	 is an Identifi	 Token: 38
+Lexeme: ')'	 is a Delimiter	 Token: 31
+Lexeme: ';'	 is a Delimiter	 Token: 34
+
+line_no: '24', len(line): '6', content: '    } '
+Lexeme: '}'	 is a Delimiter	 Token: 29
+
+line_no: '25', len(line): '1', content: ' '
+
+line_no: '26', len(line): '40', content: '    # We reach here when element is not '
+Lexeme: '# We reach here when element is not '	 is a Comment	 Token: 37
+
+line_no: '27', len(line): '23', content: '    # present in array '
+Lexeme: '# present in array '	 is a Comment	 Token: 37
+
+line_no: '28', len(line): '15', content: '    return -1; '
+Lexeme: 'return'	 is a keyword	 Token: 13
+Lexeme: '-1'	 is an int	 Token: 39
+Lexeme: ';'	 is a Delimiter	 Token: 34
+
+line_no: '29', len(line): '2', content: '} '
+Lexeme: '}'	 is a Delimiter	 Token: 29
+
+line_no: '30', len(line): '1', content: ' '
+
+line_no: '31', len(line): '15', content: 'int main(void) '
+Lexeme: 'int'	 is a keyword	 Token: 39
+Lexeme: 'main'	 is an Identifi	 Token: 38
+Lexeme: '('	 is a Delimiter	 Token: 30
+Lexeme: 'void'	 is an Identifi	 Token: 38
+Lexeme: ')'	 is a Delimiter	 Token: 31
+
+line_no: '32', len(line): '2', content: '{ '
+Lexeme: '{'	 is a Delimiter	 Token: 28
+
+line_no: '33', len(line): '37', content: '    int arr[] = { 2, 3, 4, 10, 40 }; '
+Lexeme: 'int'	 is a keyword	 Token: 39
+Lexeme: 'arr'	 is an Identifi	 Token: 38
+Lexeme: '['	 is a Delimiter	 Token: 32
+Lexeme: ']'	 is a Delimiter	 Token: 33
+Lexeme: '='	 is an operator	 Token: 19
+Lexeme: '{'	 is a Delimiter	 Token: 28
+Lexeme: '2'	 is an int	 Token: 39
+Lexeme: ','	 is a Delimiter	 Token: 36
+Lexeme: '3'	 is an int	 Token: 39
+Lexeme: ','	 is a Delimiter	 Token: 36
+Lexeme: '4'	 is an int	 Token: 39
+Lexeme: ','	 is a Delimiter	 Token: 36
+Lexeme: '10'	 is an int	 Token: 39
+Lexeme: ','	 is a Delimiter	 Token: 36
+Lexeme: '40'	 is an int	 Token: 39
+Lexeme: '}'	 is a Delimiter	 Token: 29
+Lexeme: ';'	 is a Delimiter	 Token: 34
+
+line_no: '34', len(line): '42', content: '    int n = sizeof(arr) / sizeof(arr[0]); '
+Lexeme: 'int'	 is a keyword	 Token: 39
+Lexeme: 'n'	 is an Identifi	 Token: 38
+Lexeme: '='	 is an operator	 Token: 19
+Lexeme: 'sizeof'	 is an Identifi	 Token: 38
+Lexeme: '('	 is a Delimiter	 Token: 30
+Lexeme: 'arr'	 is an Identifi	 Token: 38
+Lexeme: ')'	 is a Delimiter	 Token: 31
+Lexeme: '/'	 is an operator	 Token: 17
+Lexeme: 'sizeof'	 is an Identifi	 Token: 38
+Lexeme: '('	 is a Delimiter	 Token: 30
+Lexeme: 'arr'	 is an Identifi	 Token: 38
+Lexeme: '['	 is a Delimiter	 Token: 32
+Lexeme: '0'	 is an int	 Token: 39
+Lexeme: ']'	 is a Delimiter	 Token: 33
+Lexeme: ')'	 is a Delimiter	 Token: 31
+Lexeme: ';'	 is a Delimiter	 Token: 34
+
+line_no: '35', len(line): '16', content: '    int x = 10; '
+Lexeme: 'int'	 is a keyword	 Token: 39
+Lexeme: 'x'	 is an Identifi	 Token: 38
+Lexeme: '='	 is an operator	 Token: 19
+Lexeme: '10'	 is an int	 Token: 39
+Lexeme: ';'	 is a Delimiter	 Token: 34
+
+line_no: '36', len(line): '49', content: '    int result = binarySearch(arr, 0, n - 1, x); '
+Lexeme: 'int'	 is a keyword	 Token: 39
+Lexeme: 'result'	 is an Identifi	 Token: 38
+Lexeme: '='	 is an operator	 Token: 19
+Lexeme: 'binarySearch'	 is an Identifi	 Token: 38
+Lexeme: '('	 is a Delimiter	 Token: 30
+Lexeme: 'arr'	 is an Identifi	 Token: 38
+Lexeme: ','	 is a Delimiter	 Token: 36
+Lexeme: '0'	 is an int	 Token: 39
+Lexeme: ','	 is a Delimiter	 Token: 36
+Lexeme: 'n'	 is an Identifi	 Token: 38
+Lexeme: '-'	 is an operator	 Token: 15
+Lexeme: '1'	 is an int	 Token: 39
+Lexeme: ','	 is a Delimiter	 Token: 36
+Lexeme: 'x'	 is an Identifi	 Token: 38
+Lexeme: ')'	 is a Delimiter	 Token: 31
+Lexeme: ';'	 is a Delimiter	 Token: 34
+
+line_no: '37', len(line): '119', content: '    (result equals -1) ? printf("Element is not present in array") : printf("Element is present at index %d", result); '
+Lexeme: '('	 is a Delimiter	 Token: 30
+Lexeme: 'result'	 is an Identifi	 Token: 38
+Lexeme: 'equals'	 is an operator	 Token: 20
+Lexeme: '-1'	 is an int	 Token: 39
+Lexeme: ')'	 is a Delimiter	 Token: 31
+Lexeme: '?'	 is an operator	 Token: 26
+Lexeme: 'printf'	 is a keyword	 Token: 11
+Lexeme: '('	 is a Delimiter	 Token: 30
+Lexeme: '"Element is not present in array"'	 is a string	 Token: 41
+Lexeme: ')'	 is a Delimiter	 Token: 31
+Lexeme: ':'	 is an operator	 Token: 27
+Lexeme: 'printf'	 is a keyword	 Token: 11
+Lexeme: '('	 is a Delimiter	 Token: 30
+Lexeme: '"Element is not present in array""Element is present at index %d"'	 is a string	 Token: 41
+Lexeme: ','	 is a Delimiter	 Token: 36
+Lexeme: 'result'	 is an Identifi	 Token: 38
+Lexeme: ')'	 is a Delimiter	 Token: 31
+Lexeme: ';'	 is a Delimiter	 Token: 34
+
+line_no: '38', len(line): '14', content: '    return 0; '
+Lexeme: 'return'	 is a keyword	 Token: 13
+Lexeme: '0'	 is an int	 Token: 39
+Lexeme: ';'	 is a Delimiter	 Token: 34
+
+line_no: '39', len(line): '2', content: '} '
+Lexeme: '}'	 is a Delimiter	 Token: 29
+
+line_no: '40', len(line): '1', content: ' '
